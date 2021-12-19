@@ -1184,6 +1184,25 @@ transform: rotate(180deg);
 
 }
 
+@media (max-width: 368px){
+
+    .banner-emma{
+        display: flex;
+        max-width: 360px;
+        margin-right: -40px;
+        width: 300px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .caja-banner{
+        display: flex;
+        margin-left:-60px;
+    }
+    
+
+}
+
 
 
 .seguir{ /*seguir leyendo slider*/
