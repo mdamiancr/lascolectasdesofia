@@ -1184,6 +1184,66 @@ transform: rotate(180deg);
 
 }
 
+
+@media (max-width: 1202px){
+
+    .banner-emma{
+        display: flex;
+        max-width: 1202px;
+        margin-right: 1px;
+        width: 300px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .caja-banner{
+        display: flex;
+        margin-left:-60px;
+    }
+    
+
+}
+
+@media (max-width: 720px){
+
+    .banner-emma{
+        display: flex;
+        max-width: 720px;
+        margin-right: 1px;
+        width: 300px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .caja-banner{
+        display: flex;
+        margin-left:-60px;
+    }
+    
+
+}
+
+
+@media (max-width: 480px){
+
+    .banner-emma{
+        display: flex;
+        max-width: 480px;
+        margin-right: 1px;
+        width: 300px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .caja-banner{
+        display: flex;
+        margin-left:-60px;
+    }
+    
+
+}
+
+
 @media (max-width: 368px){
 
     .banner-emma{
