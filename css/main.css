@@ -1282,7 +1282,14 @@ transform: rotate(180deg);
 }
 
 .gorrito{
-    margin-top: -20px;
+    position: relative;
+    margin-top: -17px;
+    width: 30px;
+    margin-left: 1px;
+    transform: rotate(-24deg);
+    margin-bottom: 20px;
+    margin-right: -20px;
+    
 }
 
 
