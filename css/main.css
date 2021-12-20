@@ -269,6 +269,13 @@ color: white;
 font-weight: 300;
 }
 
+.nav__title:hover{
+    animation:pulse;
+    animation-duration: 2s;
+    cursor: pointer;
+    color: #2091f9;
+}
+
 .nav__items{
 list-style: none;
 }
