@@ -286,6 +286,11 @@ list-style: none;
     text-decoration: none;
 }
 
+.nav__links:hover{
+    animation:zoomIn;
+    animation-duration: 1s;
+}
+
 .nav__menu{
     margin-left: auto;
     cursor: pointer;
