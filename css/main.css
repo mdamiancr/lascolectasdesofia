@@ -1197,6 +1197,12 @@ transform: rotate(180deg);
 
 }
 
+@media (max-width: 2000px){
+    .banner-emma{
+        width: 2000px;
+        margin-top: 20px;
+    }
+}
 
 @media (max-width: 1202px){
 
@@ -1220,18 +1226,17 @@ transform: rotate(180deg);
 @media (max-width: 720px){
 
     .banner-emma{
-        display: flex;
         max-width: 720px;
-        margin-right: 1px;
-        width: 300px;
-        margin-top: 20px;
-        cursor: pointer;
+        width: 720px;
+        height: 240px;
+        display: flex; 
     }
 
     .caja-banner{
-        display: flex;
-        margin-left:-60px;
+        margin-left: -1000px;
     }
+
+    
     
 
 }
