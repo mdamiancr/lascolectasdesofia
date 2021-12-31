@@ -21,3 +21,14 @@ titleQuestions.forEach(question =>{
 })
 
 })();
+
+
+/*funcion ir a arriba */
+
+$(window).scroll(function(){ 
+    if ($(this).scrollTop() > 100) { 
+        $('#scroll').fadeIn(); 
+    } else { 
+        $('#scroll').fadeOut(); 
+    } 
+});
