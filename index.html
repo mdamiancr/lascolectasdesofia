@@ -17,69 +17,72 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <script type='text/javascript'>
-        $(document).ready(function(){ 
-            $(window).scroll(function(){ 
-                if ($(this).scrollTop() > 100) { 
-                    $('#scroll').fadeIn(); 
-                } else { 
-                    $('#scroll').fadeOut(); 
-                } 
-            }); 
-            $('#scroll').click(function(){ 
-                $("html, body").animate({ scrollTop: 0 }, 600); 
-                return false; 
-            }); 
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#scroll').fadeIn();
+                } else {
+                    $('#scroll').fadeOut();
+                }
+            });
+            $('#scroll').click(function () {
+                $("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
+            });
         });
-        </script>
-        <style type="text/css">
+    </script>
+    <style type="text/css">
         /* BackToTop button css */
         #scroll {
-            position:fixed;
-            right:10px;
-            bottom:10px;
-            cursor:pointer;
-            width:50px;
-            height:50px;
-            background-color:#3498db;
-            text-indent:-9999px;
-            display:none;
-            -webkit-border-radius:60px;
-            -moz-border-radius:60px;
-            border-radius:60px
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            text-indent: -9999px;
+            display: none;
+            -webkit-border-radius: 60px;
+            -moz-border-radius: 60px;
+            border-radius: 60px
         }
+
         #scroll span {
-            position:absolute;
-            top:50%;
-            left:50%;
-            margin-left:-8px;
-            margin-top:-12px;
-            height:0;
-            width:0;
-            border:8px solid transparent;
-            border-bottom-color:#ffffff
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -8px;
+            margin-top: -12px;
+            height: 0;
+            width: 0;
+            border: 8px solid transparent;
+            border-bottom-color: #ffffff
         }
+
         #scroll:hover {
-            background-color:#e74c3c;
-            opacity:1;filter:"alpha(opacity=100)";
-            -ms-filter:"alpha(opacity=100)";
+            background-color: #e74c3c;
+            opacity: 1;
+            filter: "alpha(opacity=100)";
+            -ms-filter: "alpha(opacity=100)";
         }
-        </style>
+    </style>
 </head>
 
 <body>
 
 
-    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
-   
+    <a href="javascript:void(0);" id="scroll" title="Ir a arriba" style="display: none;">Top<span></span></a>
+
 
 
     <!--comienzo de encabezado / barra de menú-->
     <header class="hero" id="inicio">
         <nav class="nav container">
             <div class="nav__logo">
-                <h2  class="nav__title">Las colectas de Sofía</h2>
+                <h2 class="nav__title">Las colectas de Sofía</h2>
             </div>
-            
+
 
             <ul class="nav__link  nav__link--menu">
 
@@ -145,12 +148,15 @@
             <div class="knowledge___container container">
                 <div class="knowledge__texts">
                     <h2 class="subtitle">Sobre el proyecto:</h2>
-                    <p class="knowledge__paragraph">La plataforma tiene como objetivo dar a conocer y visibilizar masivamente causas sociales, personas e historias
-                        generando comunidad alrededor de las mismas, principalmente nuestro foco central y misión es mejorar la calidad de vida de los protagonistas involucrados
+                    <p class="knowledge__paragraph">La plataforma tiene como objetivo dar a conocer y visibilizar
+                        masivamente causas sociales, personas e historias
+                        generando comunidad alrededor de las mismas, principalmente nuestro foco central y misión es
+                        mejorar la calidad de vida de los protagonistas involucrados
                         haciendo énfasis en cumplir sus objetivos de forma colaborativa y en sociedad.
                         <br>
                         <br>
-                        <b>¡Gracias por formar parte de este proyecto, estamos convencidos de que juntos lograremos grandes cosas!</b>
+                        <b>¡Gracias por formar parte de este proyecto, estamos convencidos de que juntos lograremos
+                            grandes cosas!</b>
 
                     </p>
                 </div>
@@ -192,8 +198,8 @@
 
             <!--<div class="galeria--section">
                 <div class="contenedor-imagenes--dos">
-                    <div class="imagen--dos"><img src="https://i.ibb.co/wSSNXb3/1-4.jpg" alt="">
-                    <div class="overlay--dos"><h2>Texto</h2></div>
+                    <div class="imagen--dos"><img src="/img" alt="">
+                    <div class="overlay--dos"><h2>Eugenia</h2></div>
                  </div>
                  
                  <div class="imagen--dos"><img src="https://i.ibb.co/BVjDj87/1-5.jpg" alt="">
@@ -224,7 +230,8 @@
                                 su esposo la baleó y luego se quitó la vida.
                                 Salía rumbo al trabajo cuando a una cuadra de su casa ocurrió el ataque.
                                 El hombre, del que estaba separada, le hizo señas para que detuviera la
-                                marcha...&nbsp;<a class="seguir" href="historias.html#fanny"  alt="" target="_blank" >Seguir leyendo</a>
+                                marcha...&nbsp;<a class="seguir" href="historias.html#fanny" alt=""
+                                    target="_blank">Seguir leyendo</a>
                             </p>
                         </div>
 
@@ -255,19 +262,39 @@
 
 
                     <!--breve historia tres-->
-                   <section class="testimony__body" data-id="3">
+                    <section class="testimony__body" data-id="3">
                         <div class="testimony__texts">
                             <h2 class="subtitle">Todxs por <span class="testimony__course">Emma</span>
                                 <h3 class="minititle">Emma necesita 3 cirujìas para sobrevivir</h3>
                             </h2>
-                            <p class="testimony__review">El embarazo de Eva, la madre de Emma, fue “normal” hasta el día 28 de mayo de 2021, cuando tuvo
-                                que realizarse la ecografía estructural. Desde ese día, todo cambió, los controles se hicieron
-                                más seguidos... <a class="seguir" href="historias.html#emma" alt="" target="_blank">Seguir leyendo</a></p>
+                            <p class="testimony__review">El embarazo de Eva, la madre de Emma, fue “normal” hasta el día
+                                28 de mayo de 2021, cuando tuvo
+                                que realizarse la ecografía estructural. Desde ese día, todo cambió, los controles se
+                                hicieron
+                                más seguidos... <a class="seguir" href="historias.html#emma" alt=""
+                                    target="_blank">Seguir leyendo</a></p>
                         </div>
 
                         <figure class="testimony__picture">
                             <a href="historias.html"><img src="img/Emma/WhatsApp Image 2021-12-19 at 10.02.12 PM.jpeg"
                                     class="testimony__img" alt=""></a>
+                        </figure>
+                    </section>
+
+                    <!--breve historia cuatro-->
+                    <section class="testimony__body" data-id="4">
+                        <div class="testimony__texts">
+                            <h2 class="subtitle">Todxs por <span class="testimony__course">Euge</span>
+                            </h2>
+                            <p class="testimony__review">Por dónde empezar… 3/2 nos llaman de policliníca de
+                                Neuropediatria, para avisarnos que nos
+                                cambiaban la fecha que teníamos el 9 de febrero para el otro día (4 de febrero)... <a
+                                class="seguir" href="historias.html#euge" alt="" target="_blank">Seguir leyendo</a>
+                            </p>
+                        </div>
+
+                        <figure class="testimony__picture">
+                            <a href="historias.html"><img src="img/Euge/euge3.jpeg" class="testimony__img" alt=""></a>
                         </figure>
                     </section>
 
@@ -451,14 +478,14 @@
                         src="img/historias/bxl-instagram.svg" alt="" class="footer__img"></a>
                 <a href="https://wa.me/+59897684466" target="_blank" class="footer__icons"><img
                         src="img/bxl-whatsapp.svg" alt="" class="footer__img"></a>
-                        
-          
+
+
             </div>
             <p>Desarrollado por MDC</p>
             <h3 class="copyright">Derechos reservados &copy;</h3>
         </section>
 
-        
+
 
     </footer>
 
